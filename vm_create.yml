@@ -63,6 +63,6 @@
         sku: 16.04-LTS
         version: latest
     register: vm
- - name: Print Vm info
-   debug:
-    msg: "VM Name {{ vm.publicIPAddress }}"    
+  - name: Print Vm info
+    debug:
+     msg: "VM Name {{ vm.publicIPAddress }}"    
