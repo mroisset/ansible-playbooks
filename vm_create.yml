@@ -65,4 +65,4 @@
     register: vm
   - name: Print Vm info
     debug:
-     msg: "VM Name {{ vm }}"    
+     msg: "VM Name {{ vm.ansible_facts }}"    
