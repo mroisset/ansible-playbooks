@@ -65,4 +65,4 @@
     register: vm
   - name: Print Vm info
     debug:
-     msg: "VM Name {{ vm.ansible_facts.azure_vm.id }}"    
+     msg: "VM Name {{ vm.ansible_facts.azure_vm.properties.networkProfile }}"    
